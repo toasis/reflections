@@ -1,3 +1,7 @@
 What happens when you initialize a repository? Why do you need to do it?
 The project(or folder) is tracking by git now. there is a hidden file named .git was created by git. The reason I need to do it is because this is
 the first job to let git do its version-control job.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+It give you time to think when is the best time to summit a commit. You can keep files into the staging area and wait until all files are ready to meet a 
+logical checkpoint.
