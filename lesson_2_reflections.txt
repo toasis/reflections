@@ -5,3 +5,6 @@ the first job to let git do its version-control job.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 It give you time to think when is the best time to summit a commit. You can keep files into the staging area and wait until all files are ready to meet a 
 logical checkpoint.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Make sure all the changes you want to commit is logical, put them in the staging area first.
