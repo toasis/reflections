@@ -1,0 +1,50 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    if I try to find the difference by eyes, it is possible that I can not find all
+    of them. That's is the benefit to use a diff command and let computer to the work 
+    for you.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Keep tracking on all my changes manually will be hugh pain for me to maintence the project 
+    in the long term. But if there is not a easy way to mange that, it will be waste time, too.
+    I believe git will be a better solution.
+
+    作为一个网页开发者，在网页开发的过程中必然会出现很多的修改和变更，因此能够及时保存变更是非常重要的。无论是自动还是手动
+    保存，都能够在需要的时候提供回溯的可能，这是非常重要的。
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Git Pros: You will know which version you saved, and easy to get the vrsion version at any time.
+    	Cons: Learning to use git and use it well need time, the learning curve of git is sharp, 
+    	instead, press a save button is much easier for most people.
+
+    	Git commits 的决定是开发者基于开发逻辑的考虑提出的，每个 commit 都有其自己的目的，而Google Doc 的自动保存是由软件决定的，这就意味着每个保存历史未必那么有意义。
+
+    Google doc Pros&Cons: you don't need to remember to save, that means maybe you will not lost any changes, 
+    but the same time if you want to go back to the previous version will be impossible. 
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    I guess maybe because the mechanism they use are different.Git 的 repository 实际上是相关联的若干个文件，每次 Commit 都会提交这若干个文件的变更。变更可以通过 diff'查看。而 googledoc 每次只保存一个文件的变更，如果要保存多个文件的变更需要在不同文件上重复相同的操作。
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log and git diff ID1 ID2
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    I can go back any previous version by using git. That's why I can try  something bold even crazy.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Maybe set a git repository first. 
+    Use git to mange every project of mine from now on.

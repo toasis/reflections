@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+The project(or folder) is tracking by git now. there is a hidden file named .git was created by git. The reason I need to do it is because this is
+the first job to let git do its version-control job.
