@@ -5,3 +5,14 @@ the first job to let git do its version-control job.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 It give you time to think when is the best time to summit a commit. You can keep files into the staging area and wait until all files are ready to meet a 
 logical checkpoint.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When you want to experience some new feature but not make the master branch a mess, creat a new branch will be a good idea. it copy every files from your master repository to this branch so you can do anything you want.
+
+How do the diagrams help you visualize the branch structure?
+Branch 这个部分看的不是很懂
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+

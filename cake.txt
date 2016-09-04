@@ -1,2 +1,0 @@
-this is the first line in cake.txt
-this is the second line in cake.txt
